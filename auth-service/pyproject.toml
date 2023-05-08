@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "auth-service"
+version = "0.1.0"
+description = ""
+authors = ["Uemerson Pinheiro Junior <uemersonpinheirojunior@gmail.com>"]
+readme = "README.md"
+packages = [{include = "auth_service"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
